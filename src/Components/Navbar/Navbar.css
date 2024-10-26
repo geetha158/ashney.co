@@ -1,0 +1,113 @@
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    justify-content: space-between;
+    padding: 20px 30px;
+    gap: 30px;
+    align-items: center;
+}
+
+.navbar_brandname{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar_brandname img{
+    width: 50px;
+    height: 50px;
+}
+
+.navbar_cartlogin img{
+    width: 50px;
+    height: 50px;
+}
+
+.navbar_search{
+    display: flex;
+    align-items: center;
+    gap: 0;
+    border: 0.8px solid black;
+    
+}
+
+.navbar_search img{
+    width: 45px;
+    height: 45px;
+
+}
+
+.navbar_search  select{
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+
+    
+}
+
+
+.navbar_inputsearch{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* border: 0.8px solid black; */
+    /* height: 30px; */
+}
+
+.navbar_search  .navbar_inputsearch input{
+    padding: 10px 15px;
+    outline: none;
+    width: 100%;
+    border: none;
+}
+
+.navbar_cartlogin{
+    display: flex;
+    gap: 50px;
+    margin-left: 50px;
+    
+}
+
+.navbar_cartlogin div{
+    align-items: center;
+}
+
+.navbar_cartlogin p{
+   color: brown;
+}
+
+.navall{
+    box-shadow: 0 1px 3px -2px #000;
+}
+
+.navbar_brandname .navbar_name{
+    color: brown;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.navbar_cartlogin div{
+    display: flex;
+}
+
+
+.nav_options{
+    display: flex;
+    gap: 20px;
+    padding: 10px 30px;
+    align-items: center;
+}
+
+.nav_options div{
+    color: black;
+    font-size: 18px;
+}
+
+.nav_options div select{
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+}
+
+
+

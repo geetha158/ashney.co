@@ -1,0 +1,12 @@
+.marketpalce{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.marketpalce div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}

@@ -1,0 +1,28 @@
+.slideimg{ 
+    display: flex;
+}
+
+.slideimg img{
+    /* width: 100%; */
+    height: 50vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slideshow{
+    margin-top: 40px;
+}
+
+.thankyou{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.thankyou h2{
+    color: brown;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 30px;
+}

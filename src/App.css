@@ -1,0 +1,16 @@
+.main_urgent{
+
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: brown;
+}
+
+.main p{
+  
+  color: whitesmoke;
+  padding: 20px 30px;
+}
