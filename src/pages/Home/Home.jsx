@@ -1,15 +1,15 @@
 import React from 'react'
-import Navbar from '../../Components/Navbar/Navbar'
 import Slideshow from '../../Components/Slideshow/Slideshow'
 import Premium from '../../Components/Premium/premium'
 import Shopbycollection from '../../Components/Shopbycollection/Shopbycollection'
 import { Promotions } from '../../Components/Promotions/Promotions'
 import Clearance from '../../Components/Clearance/Clearance'
+import Navsec from '../../Components/Navsec/Navsec'
 
 const Home = () => {
   return (
     <div>
-        <Navbar />
+        <Navsec />
         <Slideshow />
         <Premium />
         <Clearance />

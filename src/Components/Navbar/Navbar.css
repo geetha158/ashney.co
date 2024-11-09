@@ -75,10 +75,10 @@
 .navbar_cartlogin p{
    color: brown;
 }
-
+/* 
 .navall{
     box-shadow: 0 1px 3px -2px #000;
-}
+} */
 
 .navbar_brandname .navbar_name{
     color: brown;
@@ -91,23 +91,6 @@
 }
 
 
-.nav_options{
-    display: flex;
-    gap: 20px;
-    padding: 10px 30px;
-    align-items: center;
-}
-
-.nav_options div{
-    color: black;
-    font-size: 18px;
-}
-
-.nav_options div select{
-    outline: none;
-    border: none;
-    padding: 10px 20px;
-}
 
 
 
